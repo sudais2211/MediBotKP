@@ -1,5 +1,10 @@
 # MediBot KP — Autonomous Hospital Delivery Robot Simulator
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-brightgreen?style=for-the-badge&logo=github)](https://sudais2211.github.io/MediBotKP/)
+[![Deploy Status](https://github.com/sudais2211/MediBotKP/actions/workflows/deploy.yml/badge.svg)](https://github.com/sudais2211/MediBotKP/actions)
+
+🌐 **Live 3D Digital Twin Simulator:** [https://sudais2211.github.io/MediBotKP/](https://sudais2211.github.io/MediBotKP/)
+
 **Company:** RoboNex Innovations  
 **Product:** MediBot KP  
 **Event:** AI Innovation Challenge 2026 Live Demonstration  
