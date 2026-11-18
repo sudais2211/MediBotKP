@@ -1,0 +1,78 @@
+{
+  "name": "RoboNex St. Jude Digital Twin Floor 3",
+  "dimensions": {
+    "width": 36.0,
+    "depth": 24.0,
+    "x_min": -18.0,
+    "x_max": 18.0,
+    "z_min": -12.0,
+    "z_max": 12.0,
+    "grid_resolution": 0.25
+  },
+  "outer_walls": [
+    { "x1": -18.0, "z1": -12.0, "x2": 18.0, "z2": -12.0, "thickness": 0.3 },
+    { "x1": 18.0, "z1": -12.0, "x2": 18.0, "z2": 12.0, "thickness": 0.3 },
+    { "x1": 18.0, "z1": 12.0, "x2": -18.0, "z2": 12.0, "thickness": 0.3 },
+    { "x1": -18.0, "z1": 12.0, "x2": -18.0, "z2": -12.0, "thickness": 0.3 }
+  ],
+  "interior_walls": [
+    { "id": "w_pharm_south_1", "x1": -18.0, "z1": 3.0, "x2": -10.5, "z2": 3.0, "thickness": 0.2 },
+    { "id": "w_pharm_south_2", "x1": -7.5, "z1": 3.0, "x2": -3.5, "z2": 3.0, "thickness": 0.2 },
+    { "id": "w_pharm_east", "x1": -10.0, "z1": 5.0, "x2": -10.0, "z2": 12.0, "thickness": 0.2 },
+    
+    { "id": "w_dock_north_1", "x1": -18.0, "z1": -3.0, "x2": -10.5, "z2": -3.0, "thickness": 0.2 },
+    { "id": "w_dock_north_2", "x1": -7.5, "z1": -3.0, "x2": -3.5, "z2": -3.0, "thickness": 0.2 },
+    { "id": "w_dock_east", "x1": -10.0, "z1": -5.0, "x2": -10.0, "z2": -12.0, "thickness": 0.2 },
+    
+    { "id": "w_rm101_east", "x1": -3.5, "z1": 5.0, "x2": -3.5, "z2": 12.0, "thickness": 0.2 },
+    { "id": "w_rm103_east", "x1": -3.5, "z1": -5.0, "x2": -3.5, "z2": -12.0, "thickness": 0.2 },
+    
+    { "id": "w_lobby_west", "x1": -0.5, "z1": 5.0, "x2": -0.5, "z2": 12.0, "thickness": 0.2 },
+    { "id": "w_lobby_east", "x1": 3.5, "z1": 5.0, "x2": 3.5, "z2": 12.0, "thickness": 0.2 },
+    { "id": "w_rm102_east", "x1": 10.0, "z1": 5.0, "x2": 10.0, "z2": 12.0, "thickness": 0.2 },
+    { "id": "w_ed_south_1", "x1": 3.5, "z1": 3.0, "x2": 7.5, "z2": 3.0, "thickness": 0.2 },
+    { "id": "w_ed_south_2", "x1": 10.5, "z1": 3.0, "x2": 18.0, "z2": 3.0, "thickness": 0.2 },
+
+    { "id": "w_nurse_west", "x1": -2.0, "z1": -5.0, "x2": -2.0, "z2": -9.0, "thickness": 0.2 },
+    { "id": "w_nurse_east", "x1": 4.0, "z1": -5.0, "x2": 4.0, "z2": -9.0, "thickness": 0.2 },
+    { "id": "w_nurse_south", "x1": -2.0, "z1": -9.0, "x2": 4.0, "z2": -9.0, "thickness": 0.2 },
+
+    { "id": "w_lab_west", "x1": 10.0, "z1": -5.0, "x2": 10.0, "z2": -12.0, "thickness": 0.2 },
+    { "id": "w_rm104_west", "x1": 4.0, "z1": -5.0, "x2": 4.0, "z2": -12.0, "thickness": 0.2 },
+    { "id": "w_lab_north_1", "x1": 3.5, "z1": -3.0, "x2": 7.5, "z2": -3.0, "thickness": 0.2 },
+    { "id": "w_lab_north_2", "x1": 10.5, "z1": -3.0, "x2": 18.0, "z2": -3.0, "thickness": 0.2 }
+  ],
+  "doorways": [
+    { "id": "door_pharm", "x": -9.0, "z": 4.0, "width": 1.8, "department": "pharmacy" },
+    { "id": "door_dock", "x": -9.0, "z": -4.0, "width": 1.8, "department": "dock" },
+    { "id": "door_rm101", "x": -6.0, "z": 3.0, "width": 1.4, "department": "room_101" },
+    { "id": "door_rm103", "x": -6.0, "z": -3.0, "width": 1.4, "department": "room_103" },
+    { "id": "door_reception", "x": 1.5, "z": 3.0, "width": 2.4, "department": "reception" },
+    { "id": "door_nurse", "x": 1.0, "z": -2.0, "width": 2.6, "department": "nursing_station" },
+    { "id": "door_rm102", "x": 6.0, "z": 3.0, "width": 1.4, "department": "room_102" },
+    { "id": "door_rm104", "x": 6.0, "z": -3.0, "width": 1.4, "department": "room_104" },
+    { "id": "door_ed", "x": 9.0, "z": 4.0, "width": 1.8, "department": "emergency" },
+    { "id": "door_lab", "x": 9.0, "z": -4.0, "width": 1.8, "department": "laboratory" }
+  ],
+  "furniture": [
+    { "id": "nurse_counter", "type": "counter", "x": 1.0, "z": -3.8, "w": 3.2, "d": 1.0, "h": 1.1, "color": "#0284c7" },
+    { "id": "pharm_storage", "type": "cabinet", "x": -15.0, "z": 8.0, "w": 4.0, "d": 1.2, "h": 2.2, "color": "#0ea5e9" },
+    { "id": "pharm_counter", "type": "counter", "x": -11.0, "z": 6.0, "w": 1.2, "d": 2.8, "h": 1.1, "color": "#0284c7" },
+    { "id": "reception_desk", "type": "counter", "x": 1.5, "z": 8.5, "w": 3.5, "d": 1.2, "h": 1.1, "color": "#2563eb" },
+    { "id": "reception_couches", "type": "couch", "x": -1.8, "z": 6.5, "w": 1.2, "d": 2.8, "h": 0.8, "color": "#475569" },
+    { "id": "bed_rm101", "type": "hospital_bed", "x": -6.0, "z": 8.5, "w": 1.4, "d": 2.4, "h": 0.9, "color": "#e2e8f0" },
+    { "id": "bed_rm102", "type": "hospital_bed", "x": 6.0, "z": 8.5, "w": 1.4, "d": 2.4, "h": 0.9, "color": "#e2e8f0" },
+    { "id": "bed_rm103", "type": "hospital_bed", "x": -6.0, "z": -8.5, "w": 1.4, "d": 2.4, "h": 0.9, "color": "#e2e8f0" },
+    { "id": "bed_rm104", "type": "hospital_bed", "x": 6.0, "z": -8.5, "w": 1.4, "d": 2.4, "h": 0.9, "color": "#e2e8f0" },
+    { "id": "bed_ed_1", "type": "hospital_bed", "x": 14.0, "z": 8.5, "w": 1.4, "d": 2.4, "h": 0.9, "color": "#f87171" },
+    { "id": "bed_ed_2", "type": "hospital_bed", "x": 14.0, "z": 4.5, "w": 1.4, "d": 2.4, "h": 0.9, "color": "#f87171" },
+    { "id": "lab_bench_1", "type": "workbench", "x": 14.0, "z": -8.5, "w": 4.5, "d": 1.4, "h": 1.1, "color": "#d97706" },
+    { "id": "dock_station", "type": "dock_pad", "x": -13.0, "z": -6.5, "w": 1.6, "d": 1.6, "h": 0.15, "color": "#7c3aed" }
+  ],
+  "default_robot_spawn": {
+    "x": -13.0,
+    "y": 0.0,
+    "z": -6.5,
+    "theta": 0.0
+  }
+}

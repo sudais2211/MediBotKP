@@ -1,0 +1,102 @@
+[
+  {
+    "id": "dock",
+    "name": "Robot Charging Station",
+    "code": "DOCK-01",
+    "category": "service",
+    "coordinates": { "x": -13.0, "y": 0.0, "z": -6.5 },
+    "waypoint": { "x": -13.0, "z": -6.5, "theta": 0.0 },
+    "description": "Automated inductive charging pad and maintenance dock for MediBot KP.",
+    "color": "#8b5cf6"
+  },
+  {
+    "id": "pharmacy",
+    "name": "Central Pharmacy",
+    "code": "PHARM-A",
+    "category": "clinical",
+    "coordinates": { "x": -12.5, "y": 0.0, "z": 6.0 },
+    "waypoint": { "x": -12.5, "z": 6.0, "theta": 0.0 },
+    "description": "Pharmaceutical dispensing unit, cold-chain storage, automated pill packs.",
+    "color": "#06b6d4"
+  },
+  {
+    "id": "nursing_station",
+    "name": "Nursing Station 3B",
+    "code": "NURSE-3B",
+    "category": "clinical",
+    "coordinates": { "x": 1.0, "y": 0.0, "z": -3.5 },
+    "waypoint": { "x": 1.0, "z": -3.5, "theta": -1.5708 },
+    "description": "Ward care coordination desk, medication staging area, nurse staff hub.",
+    "color": "#10b981"
+  },
+  {
+    "id": "emergency",
+    "name": "Emergency Department",
+    "code": "ED-TRAUMA",
+    "category": "critical",
+    "coordinates": { "x": 12.5, "y": 0.0, "z": 6.0 },
+    "waypoint": { "x": 12.5, "z": 6.0, "theta": 3.1416 },
+    "description": "Triage center, rapid response bay, emergency medical supplies.",
+    "color": "#ef4444"
+  },
+  {
+    "id": "laboratory",
+    "name": "Pathology & Clinical Lab",
+    "code": "LAB-02",
+    "category": "diagnostic",
+    "coordinates": { "x": 12.5, "y": 0.0, "z": -6.0 },
+    "waypoint": { "x": 12.5, "z": -6.0, "theta": 3.1416 },
+    "description": "Blood banking, chemistry analyzers, pathology specimen processing.",
+    "color": "#f59e0b"
+  },
+  {
+    "id": "reception",
+    "name": "Lobby & Reception",
+    "code": "LOBBY-01",
+    "category": "public",
+    "coordinates": { "x": -2.0, "y": 0.0, "z": 6.0 },
+    "waypoint": { "x": -2.0, "z": 5.0, "theta": 1.5708 },
+    "description": "Patient intake, visitor waiting lounge, general reception desk.",
+    "color": "#3b82f6"
+  },
+  {
+    "id": "room_101",
+    "name": "Patient Room 101",
+    "code": "RM-101",
+    "category": "inpatient",
+    "coordinates": { "x": -6.0, "y": 0.0, "z": 6.0 },
+    "waypoint": { "x": -6.0, "z": 4.5, "theta": 1.5708 },
+    "description": "Single patient recovery suite, bedside IV infusion hookup.",
+    "color": "#64748b"
+  },
+  {
+    "id": "room_102",
+    "name": "Patient Room 102",
+    "code": "RM-102",
+    "category": "inpatient",
+    "coordinates": { "x": 6.0, "y": 0.0, "z": 6.0 },
+    "waypoint": { "x": 6.0, "z": 4.5, "theta": 1.5708 },
+    "description": "Single patient recovery suite, post-operative monitoring.",
+    "color": "#64748b"
+  },
+  {
+    "id": "room_103",
+    "name": "Patient Room 103",
+    "code": "RM-103",
+    "category": "inpatient",
+    "coordinates": { "x": -6.0, "y": 0.0, "z": -6.0 },
+    "waypoint": { "x": -6.0, "z": -4.5, "theta": -1.5708 },
+    "description": "Isolation observation room, telemetry-monitored.",
+    "color": "#64748b"
+  },
+  {
+    "id": "room_104",
+    "name": "Patient Room 104",
+    "code": "RM-104",
+    "category": "inpatient",
+    "coordinates": { "x": 6.0, "y": 0.0, "z": -6.0 },
+    "waypoint": { "x": 6.0, "z": -4.5, "theta": -1.5708 },
+    "description": "Post-cardiac intervention suite, specialized recovery.",
+    "color": "#64748b"
+  }
+]
